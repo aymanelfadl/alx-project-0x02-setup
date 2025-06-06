@@ -2,6 +2,7 @@ import Link from "next/link";
 import { HeaderLinksProps } from "@/interfaces";
 
 const Header: React.FC<HeaderLinksProps> = ({ links }) => {
+    [{ name: "Home", href: "/home" }, { name: "About", href: "/about" }]
   return (
     <header className="p-4 bg-blue-400 flex gap-4 justify-end">
       {links.map((link, idx) => (
