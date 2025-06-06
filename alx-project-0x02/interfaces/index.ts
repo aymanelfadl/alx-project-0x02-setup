@@ -13,3 +13,9 @@ export interface HeaderLink {
 export interface HeaderLinksProps {
   links: HeaderLink[];
 }
+
+
+export interface CardProps {
+    title: string;
+    content: string;
+}
