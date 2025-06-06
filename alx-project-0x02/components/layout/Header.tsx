@@ -1,3 +1,16 @@
-const Header: React.FC = () => {
-    return <div>this is the header</div>
-}
+import Link from "next/link";
+import { HeaderLinksProps } from "@/interfaces";
+
+const Header: React.FC<HeaderLinksProps> = ({ links }) => {
+  return (
+    <header className="p-4 bg-blue-400 flex gap-4 justify-end">
+      {links.map((link, idx) => (
+        <Link className="px-2 py-3 bg-cyan-600 rounded-2xl hover:bg-blue-300" key={idx} href={link.href}>
+          <span>{link.name}</span>
+        </Link>
+      ))}
+    </header>
+  );
+};
+
+export default Header;
