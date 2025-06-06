@@ -4,6 +4,9 @@ import Header from "@/components/layout/Header";
 const PostsPage : React.FC = () =>{
     return (
         <Layout>
+            <Header>
+                
+            </Header>
             <h1>
                 this posts page 
             </h1>

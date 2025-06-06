@@ -17,6 +17,8 @@ export default function HomePage() {
 
   return (
     <Layout>
+            <Header>
+
         <div className="justify-end flex p-2">
          <button
           onClick={() => setIsModalOpen(true)}
