@@ -3,7 +3,6 @@ import Layout from "@/components/layout/Layout";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { CardProps } from "@/interfaces";
-import Header from "@/components/layout/Header";
 
 
 export default function HomePage() {
@@ -17,8 +16,6 @@ export default function HomePage() {
 
   return (
     <Layout>
-            <Header>
-
         <div className="justify-end flex p-2">
          <button
           onClick={() => setIsModalOpen(true)}
