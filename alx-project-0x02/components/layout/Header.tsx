@@ -3,6 +3,9 @@ import Image from "next/image";
 import { HeaderLinksProps } from "@/interfaces";
 
 const Header: React.FC<HeaderLinksProps> = ({ links }) => {
+  
+  [{ name: "Home", href: "/home" }, { name: "About", href: "/about" }, { name: "Posts", href: "/posts" }]
+  
   return (
     <header className="p-4 bg-gray-50 flex items-center justify-between">
       <div className="w-16 h-16 hover:w-20 hover:h-20 relative rounded-full overflow-hidden">

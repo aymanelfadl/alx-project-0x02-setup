@@ -1,6 +1,6 @@
 import Button from "@/components/common/Button";
 import Layout from "@/components/layout/Layout";
-
+import Header from "@/components/layout/Header";
 export default function AboutPage() {
   return (
     <Layout>

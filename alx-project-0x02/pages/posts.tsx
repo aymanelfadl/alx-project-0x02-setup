@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/Layout";
+import Header from "@/components/layout/Header";
 
 const PostsPage : React.FC = () =>{
     return (

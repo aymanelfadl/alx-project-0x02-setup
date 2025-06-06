@@ -3,6 +3,8 @@ import Layout from "@/components/layout/Layout";
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
 import { CardProps } from "@/interfaces";
+import Header from "@/components/layout/Header";
+
 
 export default function HomePage() {
 
